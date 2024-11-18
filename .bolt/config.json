@@ -1,0 +1,22 @@
+{
+  "project": {
+    "name": "1kind-ai",
+    "description": "A community-driven platform connecting leaders, entrepreneurs, and innovators",
+    "version": "0.1.0"
+  },
+  "database": {
+    "type": "supabase",
+    "url": "https://ugpzpzvfjsajlxhazjzr.supabase.co",
+    "schema": "public"
+  },
+  "build": {
+    "outDir": "dist",
+    "entry": "src/main.tsx",
+    "target": "esnext"
+  },
+  "dev": {
+    "port": 5173,
+    "host": "localhost"
+  },
+
+}
